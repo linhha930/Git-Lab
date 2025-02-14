@@ -1,5 +1,6 @@
 import unittest
 from git_lab import (
+    add_numbers,
     calculate_circle_area,
     celsius_to_fahrenheit,
     is_palindrome,
@@ -55,6 +56,7 @@ class TestUtils(unittest.TestCase):
     def test_multiply_numbers(self):
         self.assertEqual(multiply_numbers(2, 3), 6)
         self.assertEqual(multiply_numbers(-1, 1), -1)
+
 
 if __name__ == '__main__':
     unittest.main()
