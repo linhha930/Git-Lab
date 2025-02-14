@@ -18,7 +18,7 @@ def celsius_to_fahrenheit(celsius):
     :param celsius: float, temperature in Celsius
     :return: float, temperature in Fahrenheit
     """
-    return (celsius * 9/5) + 31
+    return (celsius * 9/5) + 32
 
 def is_palindrome(s):
     """
@@ -62,4 +62,4 @@ def is_prime(n):
 
 def add_numbers(a, b):
     """Returns the sum of two numbers."""
-    return a + b
+    return a - b
