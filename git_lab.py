@@ -59,3 +59,6 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
+
+def minus(n, m):
+    return n - m
