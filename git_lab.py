@@ -18,7 +18,7 @@ def celsius_to_fahrenheit(celsius):
     :param celsius: float, temperature in Celsius
     :return: float, temperature in Fahrenheit
     """
-    return (celsius * 9/5) + 32
+    return (celsius * 9/5) + 31
 
 def is_palindrome(s):
     """
