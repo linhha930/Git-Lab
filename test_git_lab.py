@@ -1,5 +1,6 @@
 import unittest
 from git_lab import (
+    add_numbers,
     calculate_circle_area,
     celsius_to_fahrenheit,
     is_palindrome,
@@ -50,6 +51,7 @@ class TestUtils(unittest.TestCase):
 
     def test_minus(self):
         self.assertEqual(minus(1,1), 0)
+
 
 if __name__ == '__main__':
     unittest.main()

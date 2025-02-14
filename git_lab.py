@@ -62,3 +62,4 @@ def is_prime(n):
 
 def minus(n, m):
     return n - m
+
